@@ -20,6 +20,5 @@ public interface StudentDAO {
 
     int deleteAll();
 
-    void saveMultipleStudents(List<Student> students);
 
 }

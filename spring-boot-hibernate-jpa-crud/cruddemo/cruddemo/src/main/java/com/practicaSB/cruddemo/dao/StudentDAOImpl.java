@@ -78,15 +78,6 @@ public class StudentDAOImpl implements StudentDAO {
         return numRowsDeleted;
     }
 
-    @Override
-    public void saveMultipleStudents(List<Student> students) {
-//        for (Student student : students) {
-//            TypedQuery<Student> laConsulta = entityManager.createQuery(
-//                    "INSERT INTO Student ", Student.class);
-//
-//            laConsulta.setParameter("losDatos", student);
-//        }
-    }
 
 
 }
